@@ -1,0 +1,25 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Sana Jafri</title>
+        <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
+    </head>
+    <body style="overflow: hidden;">
+        <script src="./script.js"></script>
+        <div id="dashboard">
+            <img src="./assets/dashboard.png" height="50px" onclick="showmenu()" alt="dashboard">
+        </div>
+        <nav class="toolbar" id="toolbar">
+            <a href="work.html" target="iframe"><img id="logo" src="./assets/logo.png" alt="logo" onclick="highlightCurrent(1)"></a>
+            <a href="work.html" target="iframe" onclick="highlightCurrent(1)"  class="current">Work</a>
+            <a href="renders.html" target="iframe" onclick="highlightCurrent(2)">3D Renders</a>
+            <a href="art.html" target="iframe" onclick="highlightCurrent(3)">Art & Design</a>
+            <a href="about.html" target="iframe" onclick="highlightCurrent(4)">About</a>
+            <a href="contact.html" target="iframe" onclick="highlightCurrent(5)">Contact</a>
+        </nav>
+        <header>
+        <iframe title="iframe" name="iframe" src="work.html">
+        </iframe>
+        </header>
+    </body>
+</html>
